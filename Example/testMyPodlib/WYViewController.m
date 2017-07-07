@@ -7,7 +7,7 @@
 //
 
 #import "WYViewController.h"
-#import <testMyPodlib/testMyPodlib-umbrella.h>
+#import <testMyPodlib/testHelloWorld.h>
 
 @interface WYViewController ()
 
@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[[testHelloWorld alloc] init] logTest];
     
 }
 

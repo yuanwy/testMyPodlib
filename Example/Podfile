@@ -1,11 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/yuanwy/wyPodlib.git'
+
 target 'testMyPodlib_Example' do
-  pod 'testMyPodlib', :path => '../'
-
-  target 'testMyPodlib_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'testMyPodlib'
 end
