@@ -1,12 +1,12 @@
 PODS:
-  - testMyPodlib (0.1.0)
+  - testMyPodlib (0.1.1)
 
 DEPENDENCIES:
-  - testMyPodlib
+  - testMyPodlib (~> 0.1.0)
 
 SPEC CHECKSUMS:
-  testMyPodlib: c3f56653e3363121dbe3c6149c34c80d19f662de
+  testMyPodlib: 4c58299f5e2b0ac43ae1df6968eee0f239b9a583
 
-PODFILE CHECKSUM: 2d9ed80cace4d6b4771c84f4d5c1f51453b087b4
+PODFILE CHECKSUM: 371191ff887603c3bd107cf46fc205131d564cdc
 
 COCOAPODS: 1.3.0.beta.2
