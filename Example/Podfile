@@ -3,5 +3,5 @@ use_frameworks!
 source 'https://github.com/yuanwy/wyPodlib.git'
 
 target 'testMyPodlib_Example' do
-  pod 'testMyPodlib', '~> 0.1.0'
+    pod 'testMyPodlib', :path => '../'
 end

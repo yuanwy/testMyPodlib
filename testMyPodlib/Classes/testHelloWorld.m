@@ -11,6 +11,6 @@
 @implementation testHelloWorld
 - (void)logTest
 {
-    NSLog(@"hhhhhhhhhhh");
+    NSLog(@"hhhhhhhhhhhdddddddhhhhhjjjjj");
 }
 @end
