@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "testHelloWorld.h"
 
 FOUNDATION_EXPORT double testMyPodlibVersionNumber;
 FOUNDATION_EXPORT const unsigned char testMyPodlibVersionString[];

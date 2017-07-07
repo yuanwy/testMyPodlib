@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2310C90E4B1C26A62B5628F472A3786A /* testMyPodlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541085E92FE0F3B2200E4D0311E6FF97 /* testMyPodlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35A5959AB7095AFAD7FC2030404574D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		42A938F324B0224A5E78F13237D2E3D5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AABC3166DE38848CF47DB476BF3BCF /* ReplaceMe.m */; };
-		459B6EDC2EFA0DD04CE6B689F628095B /* testMyPodlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 909B6906B5BF52F19FED18719245C437 /* testMyPodlib-dummy.m */; };
+		49CC6C47C599A7EAF067A9F233826BC7 /* testHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = F028959A73FFD4DE477B4E17FC00F021 /* testHelloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		576D1683ED35EA271F2E1FFA03219BCB /* Pods-testMyPodlib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F0C746CB46A088476C8B73BEF4EFDC /* Pods-testMyPodlib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AC2DAB1536A4A6242607D0B976CBCF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		86EC66E7D006E2154178EB0D5B28B8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		92DDEB69111964836ADB61C4526D6B75 /* Pods-testMyPodlib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB99133219F10A83C3A5E07D84374 /* Pods-testMyPodlib_Tests-dummy.m */; };
+		94CB72F2593D5F738734556600945F30 /* testMyPodlib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541085E92FE0F3B2200E4D0311E6FF97 /* testMyPodlib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		953232C7121B48292F2CA8083C067D25 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB0EBA227BD09506612C3A599F5B8C /* ReplaceMe.m */; };
+		9A73835AF2C3A0ABC4D681201B5FBA85 /* testHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 224E023B429E7900F4688E05D71532AA /* testHelloWorld.m */; };
 		C1D942365DDA60811FE40CD2C4821102 /* Pods-testMyPodlib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5665BE4FBFD276C01504CC109F4CE23 /* Pods-testMyPodlib_Example-dummy.m */; };
 		D7A124975BB514BF9A60EBB5558F98CD /* Pods-testMyPodlib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4030A2AF673E55BB4C14DC3B42ABA1F6 /* Pods-testMyPodlib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E175AC8FBB06E5A440C7074D912102 /* testMyPodlib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 909B6906B5BF52F19FED18719245C437 /* testMyPodlib-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,9 @@
 /* Begin PBXFileReference section */
 		00FE361BCCB46DE41EAAB911561725CF /* Pods-testMyPodlib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testMyPodlib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		20488F8A3781D118291BB4332F50F493 /* testMyPodlib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = testMyPodlib.framework; path = testMyPodlib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		224E023B429E7900F4688E05D71532AA /* testHelloWorld.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = testHelloWorld.m; sourceTree = "<group>"; };
 		30547A7ACB7B7F5ED2552BCC80FF6E1E /* Pods_testMyPodlib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_testMyPodlib_Example.framework; path = "Pods-testMyPodlib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CCB0EBA227BD09506612C3A599F5B8C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		4030A2AF673E55BB4C14DC3B42ABA1F6 /* Pods-testMyPodlib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-testMyPodlib_Example-umbrella.h"; sourceTree = "<group>"; };
 		4286A8E9B151CAC0C0618782C53C6EE0 /* Pods-testMyPodlib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testMyPodlib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		520A171DF36E9921D376DAAAD558CFD3 /* Pods-testMyPodlib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-testMyPodlib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -60,7 +64,7 @@
 		B95F579ADACFCA9BDC495338CE878068 /* testMyPodlib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = testMyPodlib.xcconfig; sourceTree = "<group>"; };
 		C920786B951BE9E40560B1D90FD06BC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C95BD98E544E0E08D8B88115F5969299 /* Pods-testMyPodlib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testMyPodlib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D2AABC3166DE38848CF47DB476BF3BCF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F028959A73FFD4DE477B4E17FC00F021 /* testHelloWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testHelloWorld.h; sourceTree = "<group>"; };
 		FF5811D7E37B758D305F2142B0369D78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,15 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4CEF2CFFA0871F390CD23C9F9CF532D3 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D2AABC3166DE38848CF47DB476BF3BCF /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		64323A9CC72D0D51BECBA9432840AE5A /* Pods-testMyPodlib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,15 +114,6 @@
 			path = "Target Support Files/Pods-testMyPodlib_Example";
 			sourceTree = "<group>";
 		};
-		6956C11F51B813F9E58DAC071015CBDA /* testMyPodlib */ = {
-			isa = PBXGroup;
-			children = (
-				4CEF2CFFA0871F390CD23C9F9CF532D3 /* Classes */,
-			);
-			name = testMyPodlib;
-			path = testMyPodlib;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +123,15 @@
 				CF360AFFF987A8558A15A09F6B351061 /* Products */,
 				CB90468197B3C16FDF62212D48626854 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		904A0FA2410082318A303A7B5DEDD0E8 /* testMyPodlib */ = {
+			isa = PBXGroup;
+			children = (
+				FA91FD14FFE053C3F93F19FE33C680B6 /* Classes */,
+			);
+			name = testMyPodlib;
+			path = testMyPodlib;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -192,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				C7527E65725E73B48371E222A344BBA8 /* Support Files */,
-				6956C11F51B813F9E58DAC071015CBDA /* testMyPodlib */,
+				904A0FA2410082318A303A7B5DEDD0E8 /* testMyPodlib */,
 			);
 			name = testMyPodlib;
 			path = ../..;
@@ -224,6 +219,17 @@
 			path = "Target Support Files/Pods-testMyPodlib_Tests";
 			sourceTree = "<group>";
 		};
+		FA91FD14FFE053C3F93F19FE33C680B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB0EBA227BD09506612C3A599F5B8C /* ReplaceMe.m */,
+				F028959A73FFD4DE477B4E17FC00F021 /* testHelloWorld.h */,
+				224E023B429E7900F4688E05D71532AA /* testHelloWorld.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -235,11 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB1E9535158008B518D60EA8810D8640 /* Headers */ = {
+		87F2F1716C24292B5C0BCE1EDCBA7804 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2310C90E4B1C26A62B5628F472A3786A /* testMyPodlib-umbrella.h in Headers */,
+				49CC6C47C599A7EAF067A9F233826BC7 /* testHelloWorld.h in Headers */,
+				94CB72F2593D5F738734556600945F30 /* testMyPodlib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +300,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88DFC32D00F888122F00A5131B7BA5DC /* Build configuration list for PBXNativeTarget "testMyPodlib" */;
 			buildPhases = (
-				8F5AED6B5B0BA3144C7E8DBE5DAF052C /* Sources */,
+				4EBCE255FA7564AD4519D1A71218097E /* Sources */,
 				6B2DF1F20BC4527B96F7BC651A12C2C1 /* Frameworks */,
-				BB1E9535158008B518D60EA8810D8640 /* Headers */,
+				87F2F1716C24292B5C0BCE1EDCBA7804 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,12 +342,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8F5AED6B5B0BA3144C7E8DBE5DAF052C /* Sources */ = {
+		4EBCE255FA7564AD4519D1A71218097E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42A938F324B0224A5E78F13237D2E3D5 /* ReplaceMe.m in Sources */,
-				459B6EDC2EFA0DD04CE6B689F628095B /* testMyPodlib-dummy.m in Sources */,
+				953232C7121B48292F2CA8083C067D25 /* ReplaceMe.m in Sources */,
+				9A73835AF2C3A0ABC4D681201B5FBA85 /* testHelloWorld.m in Sources */,
+				E2E175AC8FBB06E5A440C7074D912102 /* testMyPodlib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
